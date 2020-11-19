@@ -10,6 +10,7 @@ const CharacterCard = (props) => {
         <div className="card">
           <img alt="character" src={character.img} />
           <h2>{character.name}</h2>
+          <h4>{character.show}</h4>
         </div>
       );
 }
