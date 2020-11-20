@@ -5,7 +5,7 @@ import React from "react";
 const CharacterCard = (props) => {
     
     let {character} = props
-
+    // console.log(character)
     return (
         <div className="card">
           <img alt="character" src={character.img} />
